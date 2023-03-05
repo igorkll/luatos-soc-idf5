@@ -15,7 +15,7 @@
 
 //-----------------------------------------------------------------------------
 
-#define LUAT_HEAP_SIZE (160*1024)
+#define LUAT_HEAP_SIZE (256*1024)
 
 static uint8_t vmheap[LUAT_HEAP_SIZE];
 #if LUAT_USE_MEMORY_OPTIMIZATION_CODE_MMAP
